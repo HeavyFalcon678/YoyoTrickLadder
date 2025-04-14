@@ -1,5 +1,5 @@
-<!DOCTYPE html lang="en">
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,36 +11,49 @@
     <body>
         <header>
             <h1>Yoyo 1A Trick Ladder</h1>
+            <p class="score-text">Misses: <span id="score">0</span></p>
         </header>
 
         <main>
-            <ol>
-                <li class="item">The Sleeper</li>
-                <li class="item">Side-Throw aka World Tour</li>
-                <li class="item">Tower</li>
-                <li class="item">Rock the Baby</li>
-                <li class="item">Elevator</li>
-                <li class="item">The Brain-Twister</li>
-                <li class="item">Trapeze</li>
-                <li class="item">Split the Atom</li>
-                <li class="item">Double or Nothing</li>
-                <li class="item">Mach 5</li>
-                <li class="item">Cold Fusion</li>
-                <li class="item">Pop n' Fresh</li>
-                <li class="item">Gerbil</li>
-                <li class="item">Plastic Whip</li>
-                <li class="item">Eli Hops</li>
-                <li class="item">Boingy-Boing</li>
-                <li class="item">Gyroscopic Flop</li>
-                <li class="item">Kwyjibo</li>
-                <li class="item">Hook</li>
-                <li class="item">Suicide</li>
-                <li class="item">The Iron Whip</li>
-                <li class="item">Kamikaze</li>
-                <li class="item">Spirit Bomb</li>
-                <li class="item">Throwhand Grind</li>
-                <li class="item">Black Hops</li>
-            </ol>
+            <div class="item-box"><p class="item">The Sleeper</p></div>
+            <div class="item-box">
+                <p class="item">Side-Throw aka World Tour</p>
+            </div>
+            <div class="item-box"><p class="item">Tower</p></div>
+            <div class="item-box"><p class="item">Rock the Baby</p></div>
+            <div class="item-box"><p class="item">Elevator</p></div>
+            <div class="item-box">
+                <p class="item">The Brain-Twister</p>
+            </div>
+            <div class="item-box"><p class="item">Trapeze</p></div>
+            <div class="item-box"><p class="item">Split the Atom</p></div>
+            <div class="item-box">
+                <p class="item">Double or Nothing</p>
+            </div>
+            <div class="item-box"><p class="item">Mach 5</p></div>
+            <div class="item-box"><p class="item">Cold Fusion</p></div>
+            <div class="item-box"><p class="item">Pop n' Fresh</p></div>
+            <div class="item-box"><p class="item">Gerbil</p></div>
+            <div class="item-box"><p class="item">Plastic Whip</p></div>
+            <div class="item-box"><p class="item">Eli Hops</p></div>
+            <div class="item-box"><p class="item">Boingy-Boing</p></div>
+            <div class="item-box">
+                <p class="item">Gyroscopic Flop</p>
+            </div>
+            <div class="item-box"><p class="item">Kwyjibo</p></div>
+            <div class="item-box"><p class="item">Hook</p></div>
+            <div class="item-box"><p class="item">Suicide</p></div>
+            <div class="item-box"><p class="item">The Iron Whip</p></div>
+            <div class="item-box"><p class="item">Kamikaze</p></div>
+            <div class="item-box"><p class="item">Spirit Bomb</p></div>
+            <div class="item-box">
+                <p class="item">Throwhand Grind</p>
+            </div>
+            <div class="item-box"><p class="item">Black Hops</p></div>
+            <div class="button-box">
+                <button id="miss" class="button">Miss</button>
+                <button id="next" class="button">Next</button>
+            </div>
 
             <p>
                 Learn more at
@@ -61,5 +74,6 @@
                 >
             </p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
